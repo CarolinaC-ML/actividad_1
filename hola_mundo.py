@@ -19,3 +19,10 @@ type: detecta el tipo de variable
 print(var0,var3)
 print('te saludo: ' + var0)
 print(type(var5))
+
+#imprime hola
+#pregunta nombre
+print('por favor, dime tu nombre')
+nombre_persona = input()
+print(nombre_persona)
+print(f'es un gusto conocerte, {nombre_persona}')
