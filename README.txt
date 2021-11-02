@@ -1,6 +1,6 @@
 git init
 git add -A 
-git commit -m "Fix bad repo"
+git commit -m "commit name"
 git push https://github.com/CarolinaC-ML/actividad_1 main
 git push <address> <branch> 
 
