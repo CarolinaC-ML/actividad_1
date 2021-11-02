@@ -3,7 +3,7 @@
 variables = ['name', 'surname', 'age', 'address', 'date of birth (DD/MM/YYYY)', 'email', 'phone number'] 
 resultados = []
 for i in variables:
-   resultados.append(input(f'What is your {i}? ')) 
+   resultados.append(input(f'What is your {i}?\n')) 
 day, month, year = map(int, resultados[4].split('/'))
 age = int(resultados[2])
 calculo=(((year+age)-month)*day)/year
