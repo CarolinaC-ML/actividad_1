@@ -6,7 +6,7 @@ retornar e invocar dos funciones
 '''
 #Recabar e imprimir datos
 variables = ['name', 'surname', 'age', 'address', 'date of birth (DD/MM/YYYY)', 'email', 'phone number'] 
-resultados = []
+resultados = [] 
 def datos():
     for i in variables:
         resultados.append(input(f'What is your {i}?\n'))
@@ -23,7 +23,6 @@ age = int(resultados[2])
 from datetime import date
 today = str(date.today())
 year, month, day = map(int, today.split('-'))
-print(today)
 #fecha comprobada aplicando las 4 diferentes operaciones condicionales (< > == !=)
 currentYear = 0
 def calculo(a,b):
