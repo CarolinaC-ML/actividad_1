@@ -1,6 +1,6 @@
 git init
 git add -A 
-git commit -m "commit name"
+git commit -m "commit"
 git push https://github.com/CarolinaC-ML/actividad_1 main
 git push <address> <branch> 
 

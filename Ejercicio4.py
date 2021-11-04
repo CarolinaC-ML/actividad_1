@@ -41,28 +41,3 @@ def calculo(a,b):
     elif currentYear != a:
         print(f'\nWe might have traveled accross time. The date or the age does not make sense. Do you think we are in {currentYear}?\n')
 calculo(year,myYear)
-
-
-
-
-
-#función calculo optimizada:
-'''
-myData = [myDay, myMonth]
-Data = [month, day]
-
-for i in Data:
-    if Data[i] >= myData[i]:
-        if Data[i+1] >= myData[i+1]:
-            currentYear = myYear + age
-        else:
-            currentYear = myYear + age + 1
-    else: currentYear = myYear + age + 1
-    break
-if currentYear == a:
-    print(f'\nPerfect, the dates make sense. The current year is {a}')
-elif currentYear != a:
-    print(f'\nWe might have traveled accross time. The date or the age does not make sense. Do you think we are in {currentYear}?\n')
-
-'''
-
